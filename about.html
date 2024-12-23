@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <title>Abut Us</title>
+</head>
+
+<body>
+    <!--Header-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="../images/logo (1).png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+<!-----about us content----->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's Largest School</h1>
+            <p>Welcome to [School Name], the world's largest virtual school dedicated to providing exceptional education to students everywhere.<br> Our mission is to offer flexible and innovative learning solutions in a supportive online environment.<br> With a diverse community of learners and expert educators, we inspire curiosity and empower students to reach their full potential.<br> Join us in shaping a brighter future for a</p>
+            <a href="" class="hero-btn color-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="../images/5.png" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>About Us </h4>
+        <p>Welcome to [School Name], a virtual learning platform committed to delivering high-quality education to
+            students worldwide.<br> We provide flexible, innovative learning solutions in a supportive online
+            environment. <br> Our dedicated educators utilize advanced technology to inspire curiosity and foster
+            personal growth. Join us in shaping a successful future for our learner</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> Easy Tutorials</p>
+    </section>
+
+    <!-------JavaScript------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
