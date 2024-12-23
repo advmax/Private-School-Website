@@ -7,7 +7,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/images/Home.png);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('Home.png');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -350,7 +350,7 @@ h3 {
 .cta {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('banner.png');
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -403,7 +403,7 @@ h3 {
 .sub-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(35, 54, 66, 0.7), rgba(35, 54, 66, 0.7)), url(/images/about.png);
+    background-image: linear-gradient(rgba(35, 54, 66, 0.7), rgba(35, 54, 66, 0.7)), url('about.png');
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -457,7 +457,7 @@ h3 {
 .course-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(35, 54, 66, 0.7), rgba(35, 54, 66, 0.7)), url(/images/courses.png);
+    background-image: linear-gradient(rgba(35, 54, 66, 0.7), rgba(35, 54, 66, 0.7)), url('courses.png');
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -468,7 +468,7 @@ h3 {
 .blog-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(35, 54, 66, 0.7), rgba(35, 54, 66, 0.7)), url(/images/blog.png);
+    background-image: linear-gradient(rgba(35, 54, 66, 0.7), rgba(35, 54, 66, 0.7)), url('blog.png');
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -566,7 +566,7 @@ h3 {
 .contact-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(35, 54, 66, 0.7), rgba(35, 54, 66, 0.7)), url(/images/contact\ us.png);
+    background-image: linear-gradient(rgba(35, 54, 66, 0.7), rgba(35, 54, 66, 0.7)), url('contact us.png');
     background-position: center;
     background-size: cover;
     text-align: center;
